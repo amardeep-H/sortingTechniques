@@ -37,7 +37,7 @@ void quickSort(int arr[], int l, int r)
 int main()
 {
     int arr[5] = {5, 4, 3, 2, 1};
-    quickSort(arr, 0, 4);
+    quickSort(arr, 0, 4); /*r-1 i.e. 5-1 = 4*/
     for (int i = 0; i < 5; i++)
     {
         cout << arr[i] << "  ";
